@@ -12,7 +12,7 @@ Welcome to the AirBnB clone project. This project aims to develop a simplifies v
 
 ## Environment
 
-AirBnB clone is designed to work in the following environment:
+AirBnB clone is designed in the following environment:
 
 - Python Version: 3.4.3
 - Editors Used: Github, Vi, Visual Studio Code
@@ -53,8 +53,8 @@ Amenity: Stores highlighted amenity information (name).
 
 ## Authors
 
-Mutoni Lana Arafat (GitHub: lanaarafat, Email: a.mutoni1@alusudent)
-Noella Uwayo (GitHub: Noella Uwayo, Email: n.uwayo@alustudent.com)
+Mutoni Lana Arafat (GitHub: lanaarafat, Email: a.mutoni1@alusudent.com)
+Noella Uwayo (GitHub: n_Uwayo, Email: n.uwayo@alustudent.com)
 
 Explore, contribute, and enhance the AirBnB_clone project.
 

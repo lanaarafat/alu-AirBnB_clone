@@ -42,7 +42,7 @@ cd AirBnB_clone
 
 Here are the core class models used in this project:
 
-BaseModel: Base class with common attributes (id, created_at, updated_at).
+- BaseModel: Base class with common attributes (id, created_at, updated_at).
 User: Stores user-related information (email, password, first_name, last_name).
 City: Stores city-specific information (state_id, name).
 State: Stores state-specific information (name).

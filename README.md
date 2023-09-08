@@ -2,17 +2,17 @@
 
 AirBnB project- Lana Arafat and Noella Uwayo
 
-Welcome to the AirBnB clone project. This project aims to develop a simplifies version of the AirBnB website.
+Welcome to the AirBnB clone project. This project aims to develop a simplified version of the AirBnB website.
 
 
 
 ## Project Overview
 
-"AirBnB Clone" is a web application project that leverages Python for the backend and HTML, CSS, and JavaScript for the frontend. It utilizes MySQL datbases for efficient data management and to incoperate user authentication. It is built in phases including; API implementation, frontend design, testing etc
+"AirBnB Clone" is a web application project that leverages Python for the backend and HTML, CSS, and JavaScript for the frontend. It utilizes MySQL databases for efficient data management and to incorporate user authentication. It is built in phases, including API implementation, frontend design, testing, etc.
 
 ## Environment
 
-AirBnB clone is designed in the following environment:
+Airbnb clone is designed in the following environment:
 
 - Python Version: 3.4.3
 - Editors Used: Github, Vi, Visual Studio Code
@@ -25,10 +25,10 @@ To get started, follow these simple steps:
 
 git clone https://github.com/lanaarafat/alu-AirBnB_clone.git
 
-2. Navigate to the AirBnb directory:
+2. Navigate to the Airbnb directory:
 
 Copy code
-cd AirBnB_clone
+cd Airbnb_clone
 
 
 ## Project Structure
@@ -36,7 +36,7 @@ cd AirBnB_clone
 - `console.py`: Entry point for the command-line interpreter.
 - `models/`: Directory containing data model classes.
 - `tests/`: Directory for unit tests.
-- `models/engine/`: Directory for storage classes (e.g file_storage.py).
+- `models/engine/`: Directory for storage classes (e.g. file_storage.py).
 
 ## Class Models
 

@@ -57,7 +57,3 @@ Here are the core class models used in this project:
 - Noella Uwayo (GitHub: n_Uwayo, Email: n.uwayo@alustudent.com)
 
 Explore, contribute, and enhance the AirBnB_clone project.
-
-
-
-

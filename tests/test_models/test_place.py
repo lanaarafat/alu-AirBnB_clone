@@ -1,6 +1,4 @@
-#!/usr/bin/python3
-
-"""Unittest for Place Class."""
+ttest for Place Class."""
 
 import unittest
 
@@ -53,4 +51,3 @@ class TestPlace(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

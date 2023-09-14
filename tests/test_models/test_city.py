@@ -1,6 +1,5 @@
-#!/usr/bin/python3
-"""
-Module documentation
+
+dule documentation
 """
 
 import unittest
@@ -36,4 +35,3 @@ class TestCity(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
-

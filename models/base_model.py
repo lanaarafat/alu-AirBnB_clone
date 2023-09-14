@@ -3,14 +3,16 @@
 import models
 from uuid import uuid4
 from datetime import datetime
-
 class BaseModel:
     """
     Class Base defines all common attributes or methods for other classes
     Attr:
     id: string - assign with an uuid when an instance is created
-    created_at: datetime - assign with the current datetime when an instance is created
-    Updated_at: datetime - assign with the current datetime when an instance is created and it will be updated every time you change your object
+    created_at: datetime - assign with the current datetime 
+    when an instance is created
+    Updated_at: datetime - assign with the current datetime 
+    when an instance is created and it will be updated 
+    every time you change your object
 
     """
     def __init__(self, *args, **kwargs):
@@ -20,7 +22,8 @@ class BaseModel:
         form = "%Y-%m-%dT%H:%M:%S.%f"
 
         if kwargs:
-            kwargs["created_at"] = datetime.strptime(kwargs["created_at"], form)
+            kwargs["created_at"] = datetime.strptime(kwargs["created_at"], 
+							form)
             kwargs["updated_at"] = datetime.strptime(
                 kwargs["updated_at"], form)
             del kwargs["__class__"]
@@ -33,7 +36,6 @@ class BaseModel:
             models.storage.new(self)
 
     def save(self):
-
         """
         updates the public instance attribute 
         updated_at with the current datetime

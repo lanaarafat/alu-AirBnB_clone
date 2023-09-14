@@ -6,8 +6,9 @@ Module documentation
 from models.base_model import BaseModel
 
 
-class Amenity(BaseModel):
+class City(BaseModel):
     """
-    Amenity class
+    City class
     """
+    state_id = ""
     name = ""

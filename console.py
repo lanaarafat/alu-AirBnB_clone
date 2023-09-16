@@ -74,17 +74,19 @@ class HBNBCommand(cmd.Cmd):
         del storage.all()[keyValue]
         storage.save()
 
-    def do_all(self, line):
-        """prints all"""
-        if not len(line):
-            print([obj for obj in storage.all().values()])
-            return
-        strings = split(line)
-        if strings[0] not in HBNBCommand.classes:
+    def do_all(self, arg):
+        """
+        Prints all string representation of all instances
+        based or not on the class name
+        """
+        args = shlex.split(arg)
+        if not arg:
+            print([str(value) for value in models.storage.all().values()])
+        elif args[0] not in models.classes:
             print("** class doesn't exist **")
-            return
-        print([obj for obj in storage.all().values()
-               if strings[0] == type(obj).__name__])
+        else:
+            print([str(value) for key, value in models.storage.all().items()
+                   if key.split('.')[0] == args[0]])
 
     def do_update(self, line):
         """updates an object"""

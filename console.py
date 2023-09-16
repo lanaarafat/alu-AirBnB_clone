@@ -13,7 +13,7 @@ class HBNBCommand(cmd.Cmd):
     This class defines the console for the AirBnB clone project
     """
     prompt = "(hbnb) "
-    models.classes = {
+    classes = {
         "BaseModel",
         "User",
         "State",

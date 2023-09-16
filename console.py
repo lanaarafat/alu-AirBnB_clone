@@ -12,7 +12,16 @@ class HBNBCommand(cmd.Cmd):
     """
     This class defines the console for the AirBnB clone project
     """
-    prompt = '(hbnb) '
+    prompt = "(hbnb) "
+    __all_classes = {
+        "BaseModel",
+        "User",
+        "State",
+        "City",
+        "Place",
+        "Amenity",
+        "Review"
+    }
 
     def do_quit(self, arg):
         """
